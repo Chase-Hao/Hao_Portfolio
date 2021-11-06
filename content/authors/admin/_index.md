@@ -19,7 +19,7 @@ interests:
 organizations:
 - name: 
   #url: https://
-role: Student
+role: Economics Student
 
 social:
 - icon: envelope
