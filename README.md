@@ -5,4 +5,5 @@ My name is Chonghao Hao
 
 # [Project 1](https://github.com/Chase-Hao/Coding)
 
-RA code
+Change avatar size
+wowchemy-hugo-themes/wowchemy/layouts/partials/widgets/about.htm

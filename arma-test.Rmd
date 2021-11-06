@@ -1,0 +1,29 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(rugarch)
+library(lmtest)
+```
+
+```{r}
+time_15 <- read.csv(file = 'E:/Quant/Learn backtrader/data/1h.csv')
+return= time_15[,'return']
+```
+```{r}
+ar <- arima(return , order = c(5, 0, 5))
+coeftest(ar)
+```
+
+
+```{r}
+spec1=ugarchspec(
+mean.model = list(armaOrder = c(5, 5)),
+variance.model = list(model = "sGARCH", garchOrder = c(5, 5)),
+distribution.model = "norm")
+m1=ugarchfit(return, out.sample = 100, spec = spec1)
+m1
+```
+
