@@ -1,7 +1,7 @@
 ---
 date: "2021-10-01"
 math: true
-title: 1.waterbody and golf course distance
+title: 1.Waterbody and golf course distance
 type: book
 weight: 10
 diagram: true
