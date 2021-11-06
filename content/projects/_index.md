@@ -2,7 +2,7 @@
 header:
   caption: ""
   image: ""
-title: Projects
+title: Project
 type: page
 view: 2
 
