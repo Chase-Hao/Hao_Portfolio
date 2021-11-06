@@ -14,8 +14,8 @@ email: ""
 highlight_name: true
 interests:
 - Corporate finance
-- industrial organization
-- financial economics
+- Industrial organization
+- Financial economics
 organizations:
 - name: 
   #url: https://
