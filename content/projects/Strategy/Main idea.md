@@ -27,13 +27,13 @@ Two papers found this factor is significant in cryptocurrency returns. Their dat
 
 
 ### 4. Investor attention
-The Investor attention factor (Liu & Tsyvinski,2021)[1] is constructed by using open source(Google and Twitter). These two media paltforms provide APIs to extract them.
+The Investor attention factor (Liu & Tsyvinski,2021)[1] is constructed by using open source(Google and Twitter). These two media platforms provide APIs to extract them.
 * Google searches
 * Twitter post counts
 
 
 ### 5. Cryptocurrency momentum
-Momentum is also proved significant (Liu & Tsyvinski ,2021)[1]. Some technical analysis method in the stock market are using momentum factor. I could refer to those methods to onstruct momentum factor in crypto market.
+Momentum is also proved significant (Liu & Tsyvinski ,2021)[1]. Some technical analysis methods in the stock market are using momentum factor. I could refer to those methods to construct momentum factor indicator in crypto market.
 
 
 ### 6. Degree of disagreement
