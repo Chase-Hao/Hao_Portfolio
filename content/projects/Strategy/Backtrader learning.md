@@ -1,15 +1,16 @@
 ---
 date: "2021-11-01"
 math: true
-title: Backtrader testing
+title: Backtrader testingbacktrader
 type: book
 weight: 30
 diagram: true
 ---
 
 ## Goal:
-- Backtrader test different types of dataset and strategy
-- Use Pandas_TA to create different indicator and test it in backtrader
+There are a few examples I write to test 'backtrader' and 'Pandas_TA' packages in python
+- Use 'Backtrader' to test different types of datasets and strategies
+- Use Pandas_TA to create different indicators
 <br></br>
 ## Requirement
 ---
@@ -18,5 +19,7 @@ Pandas_TA
 <br></br>
 ## Code detail
 ---
-1.  Test multi-timeframe strategy, like '15mins average price line', '1 hour average price line'
-2.  Test multi-variable strategy, like add 'VIX' into data and consider it as an indicator
+#### Backtrader
+Need to redefine 'initial' function and trading related functions to fit different strategies and datasets.
+1.  Test multi-timeframe strategy **e.g.** use '15mins average price line' and '1 hour average price line' in a same strategy
+2.  Test multi-variable strategy **e.g.** combine out-source indicator like 'VIX' into initial dataset

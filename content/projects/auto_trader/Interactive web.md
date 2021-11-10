@@ -9,8 +9,7 @@ diagram: true
 
 ## Goal:
 ---
-- Build a interactive web which can show up-to-date Bitcoin price
-- Show my account balance, and add button to buy different cryptocurrency 
+- Build an **interactive website** which can show up-to-date Bitcoin prices and account balance as well as buy and sell features
 <br></br>
 ## Requirement
 ---
@@ -19,9 +18,9 @@ flask web framework
 <br></br>
 ## Code detail
 ---
-1.  get hisotory bitcoin data and  from Binance 
+1.  get historical bitcoin data and  from Binance 
 2.  Use web-frame package 'flask' to construct web
-  *   import tradingview lightweight chart js
-  *   load historical data in data file
+  *   import lightweight chart js from Tradingview
+  *   load historical data
   *   fetch current data and add to the chart
-  *   use binance API to post 'buy' order
+  *   use Binance API to post 'buy' order

@@ -12,11 +12,11 @@ weight: 1
 
 {{< toc hide_on="xl" >}}
  
-## Overall
+## Overall Description
 
-This project is for paper *'Remotely Productive: The Efficacy of Remote Work for Executives'*. The code is using Python.
-I use **web-crawling**, **data cleaning** to construct companies' and CEOs' panel data; use **geocoding** to calculate distances between CEO home addresses and Headquarter addresses, and then plot map of CEOs' home addresses; 
-use **multiprocessing** to do big-data calculation and big-data search; use **fuzzy search** to improve searching accuracy. 
+This project is for a paper entitled *'Remotely Productive: The Efficacy of Remote Work for Executives'*. The code is using Python.
+I use **web-crawling**, **data cleaning** to construct company headquarter address and CEO living address panel data; use **geocoding** to calculate distances between CEO home addresses and Headquarter addresses, and then plot a map of CEOs' home addresses; 
+use **multiprocessing** to do big-data calculations and big-data searches; use **fuzzy search** to improve searching accuracy. 
 <br></br>
 ## Code link
 
