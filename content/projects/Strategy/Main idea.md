@@ -9,10 +9,8 @@ diagram: true
 
 There are a few factors are proved to be significantly correlated with cryptocurrency returns. This project is to extract those factors and try to use them construct strategy
 
-
 ### 1. Cryptocurrency network factors
-Liu and Tsyvinski (2021)[1] construct this factor using data from Blockchain.info and 
-Coinmetrics.io. But those datasets are paid and have 2 months time lag. I am still looking for the better data source to construct this factor
+Liu and Tsyvinski (2021)[1] construct this factor using data from Blockchain.info and Coinmetrics.io. But those datasets are paid and have 2 months lag which can not be used in the daily trading strategy. I am still looking for the better data source
 * the number of wallet users
 * the number of active addresses
 * the number of transaction count
@@ -20,31 +18,29 @@ Coinmetrics.io. But those datasets are paid and have 2 months time lag. I am sti
 
 
 ### 2. Stock market return
-Even though Liu and Tsyvinski (2021)[1] found crypto currency found crypto's exposure on stock market return is not significant. However, they are using data before 2018. After 2018, a lot institutional investors entered this market. In recent months, bitcoin price is usually going down when Dows' is going dow. Instituational investors' marginal value of wealth is likely to be influeced by stock market and thus influenced crypto market. I will also analyze this factor.
-
+Even though Liu and Tsyvinski (2021)[1] found cryptocurrency's exposure on stock market return is not significant, they are using data before 2018. After 2018, a lot of institutional investors entered this market. In recent months, Bitcoin price is often going down when Dows' is going down. Since institutional investors also invest heavily in stock markets, according to intermediary asset pricing theory their marginal value of wealth can be influenced and reflected by the stock market. Therefore, stock market is likely to co-move with the stock market. I will also analyze this factor.
 
 ### 3. Investor sentiment
-Two papers found this factor is significant in returns. Their data source is open source, I can use those websites' API to extract data and use text analysis to quantify the factor.
-* Chen,Despres and ext. (2019)[2] think cryptocurrecy price exist huge bubble and found investor sentiment factor is significant in cryto price. They use different text analysis techique to analyze messages from StockTwits and Reddit.
-* Liu & Tsyvinski (2021)[1] defines sentiment factor as 'log ratio between the count of positive and the count of negative phrases of cryptocurrencies in Google searches'
+Two papers found this factor is significant in cryptocurrency returns. Their data sources are open sources, so I can use those websites' API to extract data and use text analysis to quantify the investor sentiment.
+* Chen, Despres, etc. (2019)[2] think there is huge bubble in cryptocurrency market and found investor sentiment factor is significant on crypto returns. To construct this factor, they use different text analysis techniques to analyze messages from StockTwits and Reddit.
+* Liu & Tsyvinski (2021)[1] define sentiment factor as: *'log-ratio between the count of positive and the count of negative phrases of cryptocurrencies in Google searches'*
 
 
 ### 4. Investor attention
-The Investor attention factor (Liu & Tsyvinski ,2021)[1] is constructed using open source and these two media provides API to extract them.
+The Investor attention factor (Liu & Tsyvinski,2021)[1] is constructed by using open source(Google and Twitter). These two media paltforms provide APIs to extract them.
 * Google searches
 * Twitter post counts
 
 
 ### 5. Cryptocurrency momentum
-Momentum is also proved significant (Liu & Tsyvinski ,2021)[1]. I can use technical analysis indicators in stock market to construct this factor.
+Momentum is also proved significant (Liu & Tsyvinski ,2021)[1]. Some technical analysis method in the stock market are using momentum factor. I could refer to those methods to onstruct momentum factor in crypto market.
 
 
 ### 6. Degree of disagreement
-Liu & Tsyvinski (2021)[1] found 'cryptocurrency return is high when the current volume-volatility ratio is high. Volumns are usually high when investors have more disagreement with the price. So I can combine this indicator into technical analysis indictors
-
+Liu & Tsyvinski (2021)[1] found 'cryptocurrency return is high when the current volume-volatility ratio is high. Volumes are usually high when investors have more disagreement with the price. This means volumes and price volatility could also reflect crypto prices.
 
 ### 7. Arbitrage across different currecy exchanges
-Makarov and Schoar (2020) found there are arbitrage opportunities across different currency exchanges due to market segmentation. However, it's kind hard to trade using different currencies.
+Makarov and Schoar (2020) found there are arbitrage opportunities across different currency exchanges due to market segmentation. However, it's kinda hard to trade using different currencies on different crypto platforms. In the US, only a limited number of platforms are allowed. And they can only trade in US dollars.
 
 
 ## Reference
