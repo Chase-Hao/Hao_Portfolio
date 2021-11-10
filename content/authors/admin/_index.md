@@ -7,7 +7,7 @@ education:
   - course: MS in Economics
     institution: University of Wisconsin Madison
     year: 2019
-  - course: BSc in Accounting
+  - course: BBA in Accounting
     institution: Beijing Institute of Technology
     year: 2015
 email: ""
