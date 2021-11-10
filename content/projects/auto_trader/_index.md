@@ -1,7 +1,7 @@
 ---
 diagram: true
 title: "Auto-trade framework(Personal Project)"
-linkTitle: Auto-Trade Framework (Personal Project)
+linkTitle: Auto-Trade Framework
 summary: "An interactive auto-trade bot for Bitcoin (In Progress)"
 date: "2021-11-01"
 type: book
