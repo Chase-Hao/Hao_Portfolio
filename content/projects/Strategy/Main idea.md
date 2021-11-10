@@ -10,7 +10,7 @@ diagram: true
 There are a few factors that are proved to be significantly correlated with cryptocurrency returns. This project is to extract those factors and try to use them construct a trading strategy.
 
 ### 1. Cryptocurrency network factors
-Liu and Tsyvinski (2021)[1] construct this factor using data from Blockchain.info and Coinmetrics.io. But those datasets are paid and have 2 months lag which can not be used in the daily trading strategy. I am still looking for the better data source
+Liu and Tsyvinski (2021)[1] construct this factor using data from Blockchain.info and Coinmetrics.io. But those datasets are paid and have 2 months time lag which can not be used in the daily trading strategy. I am still looking for the better data source
 * the number of wallet users
 * the number of active addresses
 * the number of transaction count
