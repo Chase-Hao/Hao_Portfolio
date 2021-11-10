@@ -14,6 +14,6 @@ This project tests different factors in cryptocurrency-market. The factors are m
 <br></br>
 ## Code link
 
-<u>https://github.com/Chase-Hao/Strategy-test</u>
+<u>https://github.com/haoch000/Strategy-test</u>
 <br></br>
 

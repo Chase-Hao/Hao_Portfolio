@@ -28,7 +28,7 @@ social:
 
 - icon: github
   icon_pack: fab
-  link: https://github.com/Chase-Hao?tab=repositories
+  link: https://github.com/haoch000
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/chonghao-hao-3ba1511b4/
