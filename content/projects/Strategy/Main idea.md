@@ -18,7 +18,7 @@ Liu and Tsyvinski (2021)[1] construct this factor using data from Blockchain.inf
 
 
 ### 2. Stock market return
-Even though Liu and Tsyvinski (2021)[1] found cryptocurrency's risk exposure on stock market return is not significant, they are using data before 2018. After 2018, a lot of institutional investors entered this market. In recent months, Bitcoin price is often going down when Dows' is going down. Since institutional investors also invest heavily in stock markets, according to intermediary asset pricing theory their marginal value of wealth can be influenced and reflected by the stock market. Therefore, stock market is likely to co-move with the stock market. I will also analyze this factor.
+Even though Liu and Tsyvinski (2021)[1] found cryptocurrency's risk exposure on stock market return is not significant, they are using data before 2018. After 2018, a lot of institutional investors entered this market. In recent months, Bitcoin price is often going down when Dows' is going down. Since institutional investors also invest heavily in stock markets, according to intermediary asset pricing theory, institutional investors' marginal value of wealth can be influenced and reflected by the stock market. Therefore, stock market is likely to co-move with the stock market. I will also analyze this factor.
 
 ### 3. Investor sentiment
 Two papers found this factor is significant in cryptocurrency returns. Their data sources are open sources, so I can use those websites' API to extract data and use text analysis to quantify the investor sentiment.
