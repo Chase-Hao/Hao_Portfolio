@@ -6,10 +6,10 @@ education:
   courses:
   - course: MS in Economics
     institution: University of Wisconsin Madison
-    year: 2019
+    year: 2021
   - course: BBA in Accounting
     institution: Beijing Institute of Technology
-    year: 2015
+    year: 2019
 email: ""
 highlight_name: true
 interests:
