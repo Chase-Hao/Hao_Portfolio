@@ -18,7 +18,7 @@ diagram: true
 **LexisNexis**: CEOs information
 
 **Compustat Execucomp** and **BoardEx** : CEOs current and previous working company and title
-**Company HQ address**: crwaled from SEC 10k reports (2.Crawl SEC data)
+**Company HQ address**: crwaled from SEC 10k reports (from *2.Crawl SEC data*)
 <br/><br/>
 
 ## Process flowchart
