@@ -9,8 +9,8 @@ diagram: true
 
 ## Goal:
 ---
-1.  Get CEOs pairs who live in 1km away to each other.
-2.  Get CEOs who live in same block and same tract.
+1.  Get CEOs pairs who live 1km away from each other.
+2.  CEOs who live in the same block and same tract.
 <br/><br/>
 
 ## Data source
@@ -39,10 +39,10 @@ A1-->|"crawl block and tract.py (slow)"|C1
 ---
 **Multiprocessing** for big-data calculation and matching
 ### Distance matrix
-1.  Get all CEOs home addresses coordinates and **translate** into meter coordinates.
-2.  For each CEO, remove his/her addresses in whole dataset first and then calculate the distance to every other address (**distance matrix**)
-3. write down every calculation into a file named by LexID
+1.  Get all CEOs' home addresses coordinates and **translate** into meter coordinates.
+2.  For each CEO, remove his/her addresses in the whole dataset first and then calculate the distance to every other address (**distance matrix**)
+3. write down every calculation into a file named by Lexis ID
 
 ### Get Tract and Block ID
-1.  **Restricting search range** can save a lot of time. For **TractID**, label geodata into different state name and then for each address search only in its state's tract data. For **BlockID**, similarily search each block based on TractID first.
-2. **Alternative way**: Just crawl from census geocoder website, it's easy but slow for big data
+1.  **Restricting search range** can save a lot of time. For **Tract_ID**, label geodata into different state names and then for each address only search in its state's tract data.  Similarly, search each block based on Tract_ID.
+2. **Alternative way**: Just crawl from the census geocoder website, it's easy but slow for big data
