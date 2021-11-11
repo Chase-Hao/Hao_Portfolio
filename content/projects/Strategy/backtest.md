@@ -9,7 +9,7 @@ diagram: true
 
 ## Goal:
 ---
-- Backtest a given strategy's overall performance 
+- Backtest a given strategy and analyze its performance
 -  Find the optimal input number for a given strategy and test its robustness
 <br></br>
 ## Requirement
