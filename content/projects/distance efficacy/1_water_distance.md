@@ -15,9 +15,9 @@ diagram: true
 ## Data source
 ---
 #### Waterbody and Coastline
-After manually checking results of following three data sources, I found OpenStreetMap is the most accurate one. The final result was calculated using **OpenStreetMap**. 
+After manually checking results generated from following three data sources, I found OpenStreetMap is the most accurate one. The final result was calculated using **OpenStreetMap**. 
 
-The followings are waterbody and coastline geo-data sources that I have tested:
+The followings are water body and coastline geo-data sources that I have tested:
 
 * **OpenStreetMap**: <u>https://www.openstreetmap.org</u> 
 * **Esri**: <u>https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies/explore?location=32.837100%2C-113.614487%2C4.63&showTable=true</u>
