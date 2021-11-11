@@ -1,7 +1,7 @@
 ---
 date: "2021-11-01"
 math: true
-title: MA in SDC data
+title: "M&A in SDC data"
 type: book
 weight: 10
 diagram: true
