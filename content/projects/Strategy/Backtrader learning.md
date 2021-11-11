@@ -1,7 +1,7 @@
 ---
 date: "2021-11-01"
 math: true
-title: 'Backtrader' framework examples
+title: Backtrader framework examples
 type: book
 weight: 30
 diagram: true
