@@ -35,6 +35,6 @@ social:
 superuser: true
 title: Chonghao Hao (郝崇皓)
 ---
-Chonghao Hao has an MS in Economics from the University of Wisconsin-Madison. He is currently working as a research assistant with Professor Ran Duchin. Chonghao is skilled in coding and data mining. His research interests include corporate finance, industrial organization, and financial economics.
+Chonghao Hao has an MS in Economics from the University of Wisconsin-Madison. He is currently working as a research assistant with Professor Ran Duchin and Professor Denis Sosyura. Chonghao is skilled in coding and data mining. His research interests include corporate finance, industrial organization, and financial economics.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume_Hao.pdf" "newtab" >}}resumé{{< /staticref >}}.
