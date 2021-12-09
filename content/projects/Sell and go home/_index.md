@@ -9,12 +9,12 @@ weight: 2
 ---
 {{< toc hide_on="xl" >}}
 ## Overall Description
-This is a new project to identify CEOs intention to sell their companies. 
-This project is still in the first step. This uses **fuzzy match** criterion for searching company records. It also includes a lot of manual checks in SDC data.
+This is a new project to identify if commuting CEOs tend to sell their companies and go back home. 
+It uses **fuzzy match** for searching company records; uses **big data search** to create CEOs and Spouses voting address panel and calculate their distance.
 <br></br>
 ## Code link
 
-<u>https://github.com/haoch000/RA-work</u>
+<u>https://github.com/haoch000/RA_work2</u>
 <br></br>
 
 

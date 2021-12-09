@@ -34,5 +34,5 @@ I use multiprocessing to do big-data matches.
 
 Since there is no link between Voter registration ID and Lexis ID, I need to match them based on CEOs' info. There are three ways to match them.
 1.  Based on CEOs' first and last name, the first character of middle name, month and year of birth .
-2.  Based on CEOs' house address city and zip code. If CEOs have houses in this city or this zip code, then search CEOs' names and Date of birth (DOB) in this area.
-3.  Regardless of CEOs' house address, search CEOs' names and DOB and their spouses' name and DOB. If both matching results have the same addresses, we consider it as a solid match. Because CEOs and their spouse live together in the same address.
+2.  Based on CEOs' house address city and zip code. If CEOs have houses in this city or this zip code, then search CEOs' names and date of birth (DOB) in this area.
+3.  Regardless of CEOs' house addresses, search CEOs' names and DOB and their spouses' names and DOB. If both matching results have the same addresses, we consider it a solid match because CEOs and their spouses live together in the same address.

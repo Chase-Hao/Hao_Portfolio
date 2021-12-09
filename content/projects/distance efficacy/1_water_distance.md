@@ -8,16 +8,16 @@ diagram: true
 ---
 ## Goal:
 ---
-1. Calculate the **closest** distance from CEOs home addresses (and companies' HQ addresses) to waterbody, coastline and golf courses.
-2. Plot a **map** of commuters home addresses.
+1. Calculate the **closest** distance from CEOs' home addresses (and companies' HQ addresses) to waterbody, coastline and golf courses.
+2. Plot a **map** of commuters' home addresses.
 <br/><br/>
 
 ## Data source
 ---
 #### Waterbody and Coastline
-After manually checking results generated from following three data sources, I found OpenStreetMap is the most accurate one. The final result was calculated using **OpenStreetMap**. 
+After manually checking results generated from the following three data sources, I found that OpenStreetMap is the most accurate. The final result was calculated using **OpenStreetMap**. 
 
-The followings are water body and coastline geo-data sources that I have tested:
+Following data sources are water body and coastline geo-data that I have tested:
 
 * **OpenStreetMap**: <u>https://www.openstreetmap.org</u> 
 * **Esri**: <u>https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies/explore?location=32.837100%2C-113.614487%2C4.63&showTable=true</u>
@@ -62,4 +62,4 @@ B2 --> E(commuter distribution map)
 5.  Iterate commuter file to calculate distance from every CEO's home address (and HQ address) to every waterbody (every golf course) and then get the **minimum distance**.
 
 ### Plot map
-Use **three different layers** of geodata (coastline, state border, waterbody) to plot the **background**. Add annotation for each state. Then Scatter plot commuters home addresses
+Use **three different layers** of geodata (coastline, state border, waterbody) to plot the **background**. Add annotation for each state. Then Scatter plot commuters home addresses.

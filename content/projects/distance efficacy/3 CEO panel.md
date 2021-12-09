@@ -51,9 +51,9 @@ B1-->C1[CEOs working companies HQ address panel]
 ## Code detail
 ---
 #### Parsing
-Since all reports are in the same format, I create some **searching functions** for different **text structures**, e.g., search the content after a keyword; search the content in the next line of a keyword. For addresses, we need to get a list of them. So I search for the beginning and ending of this section(like the house address section) and **separate** them based on some **delimiter** like (/n). And then parse each one using a searching function I created
+Since all reports are in the same format, I create some **searching functions** for different **text structures**, e.g., search the content after a keyword; search the content in the following line of a keyword. For addresses, we need to get a list of them. So I search for the beginning and end of this section(like the house address section) and **separate** them based on some **delimiter** like (/n). And then parse each one using a searching function I created
 
 #### Panel (2000-2020)
 **Home address**: For each year, I use the house with **max value** and **max number of household members** separately as a proxy for CEOs living addresses. 
 
-**HQ address**: I collect Ceo's previous working companies' HQ addresses from **Compustat Execucomp** and **BoardEx**. And then use CIK to match with crawled **Company HQ address**
+**HQ address**: I collect CEO's previous working companies' HQ addresses from **Compustat Execucomp** and **BoardEx**. And then use CIK to match with crawled **Company HQ address**.
