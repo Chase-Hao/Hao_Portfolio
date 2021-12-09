@@ -7,6 +7,7 @@ date: "2021-11-01"
 type: book
 weight: 2
 ---
+{{< figure src="featured.jpg" >}}
 {{< toc hide_on="xl" >}}
 ## Overall Description
 This is a new project to identify if commuting CEOs tend to sell their companies and go back home. 
