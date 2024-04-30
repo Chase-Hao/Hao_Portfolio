@@ -18,9 +18,9 @@ interests:
 - Industrial organization
 - Macro Finance
 organizations:
-- name: 
+- name: University of Minnesota Twin Cities
   #url: https://
-role: Economics Student
+  role: PhD Student
 
 social:
 - icon: envelope
