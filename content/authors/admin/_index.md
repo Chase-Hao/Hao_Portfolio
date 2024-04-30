@@ -2,15 +2,16 @@
 
 bio: I am a 2nd year Finance Student
 education:
-  - course: PhD in Finance
-    institution: University of Minnesota Twin Cities
-    year: Current
-  - course: MS in Economics
-    institution: University of Wisconsin Madison
-    year: 2022
-  - course: BBA in Accounting
-    institution: Beijing Institute of Technology
-    year: 2019
+  courses:
+    - course: PhD in Finance
+      institution: University of Minnesota Twin Cities
+      year: Current
+    - course: MS in Economics
+      institution: University of Wisconsin Madison
+      year: 2022
+    - course: BBA in Accounting
+      institution: Beijing Institute of Technology
+      year: 2019
 email: "hao00059@umn.edu"
 highlight_name: true
 interests:
@@ -18,9 +19,9 @@ interests:
 - Industrial organization
 - Macro Finance
 organizations:
-- name: University of Minnesota Twin Cities
-  #url: https://
-  role: PhD Student
+  - name: University of Minnesota Twin Cities
+    #url: https://
+    role: PhD Student
 
 social:
 - icon: envelope
