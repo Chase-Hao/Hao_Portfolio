@@ -31,8 +31,7 @@ content:
     tag: RA work
   - name: Sell and go home
     tag: RA work
-  - name: Other
-    tag: Personal project
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

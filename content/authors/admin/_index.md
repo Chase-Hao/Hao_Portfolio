@@ -1,21 +1,23 @@
 ---
 
-bio: I am an economic student, specialized in data mining
-  matter.
+bio: I am a 2nd year Finance Student
 education:
+  - course: PhD in Finance
+    institution: University of Minnesota Twin Cities
+    year: Current
   courses:
   - course: MS in Economics
     institution: University of Wisconsin Madison
-    year: 2021
+    year: 2022
   - course: BBA in Accounting
     institution: Beijing Institute of Technology
     year: 2019
-email: ""
+email: "hao00059@umn.edu"
 highlight_name: true
 interests:
 - Corporate finance
 - Industrial organization
-- Financial economics
+- Macro Finance
 organizations:
 - name: 
   #url: https://
@@ -33,8 +35,8 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/chonghao-hao-3ba1511b4/
 superuser: true
-title: Chonghao Hao (郝崇皓)
+title: ChongHao Hao (郝崇皓)
 ---
-Chonghao Hao has an MS in Economics from the University of Wisconsin-Madison. He is currently working as a research assistant with Professor Ran Duchin and Professor Denis Sosyura. Chonghao is skilled in coding and data mining. His research interests include corporate finance, industrial organization, and financial economics.
+Chonghao Hao has a 2nd year PhD Finance student in University of Minnesota Twin Cities. Chonghao is skilled in Julia and Python. His research interests include corporate finance, IO, and macro finance.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume_Hao.pdf" "newtab" >}}resumé{{< /staticref >}}.
