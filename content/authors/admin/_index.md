@@ -5,7 +5,6 @@ education:
   - course: PhD in Finance
     institution: University of Minnesota Twin Cities
     year: Current
-  courses:
   - course: MS in Economics
     institution: University of Wisconsin Madison
     year: 2022
