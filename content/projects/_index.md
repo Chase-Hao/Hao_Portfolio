@@ -8,4 +8,4 @@ view: 2
 
 ---
 
-Here are my projects:
+Here are my projects before PhD:
